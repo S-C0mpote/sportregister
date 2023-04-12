@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "h3": "^0.3.9",
+    "node-fetch": "^3.2.0",
+    "sass": "^1.49.9",
+    "vuetify": "3.0.0-alpha.12"
+  }
+}
